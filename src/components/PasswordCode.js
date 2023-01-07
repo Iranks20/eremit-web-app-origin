@@ -23,7 +23,7 @@ let handleSubmit = async (e) => {
   e.preventDefault();
   e.stopPropagation()
   try {
-    await fetch("http://18.176.147.191:8500/password_otp", {
+    await fetch("http://44.202.98.199:9000/password_otp", {
       method: "POST",
       body: JSON.stringify({
         "email": Location.state.email,

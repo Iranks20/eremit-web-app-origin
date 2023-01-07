@@ -36,7 +36,7 @@ class Dashboard extends Component {
       },
       body: JSON.stringify(userId)
     }
-    fetch("http://18.176.147.191:8500/user_wallets", requiredOptions)
+    fetch("http://44.202.98.199:9000/user_wallets", requiredOptions)
     .then((response) => response.json())
     .then(res => {
       console.log(res)
@@ -62,7 +62,7 @@ curencySubmit = e => {
     body: JSON.stringify(bodyData)
   }
 
-  fetch("http://18.176.147.191:8500/add_asset", requiredOp)
+  fetch("http://44.202.98.199:9000/add_asset", requiredOp)
     .then((response) => response.json())
     .then(personDetail => {
       console.log(personDetail)

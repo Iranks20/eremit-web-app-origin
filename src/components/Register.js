@@ -21,7 +21,7 @@ const [isLoading, SetLoading] = useState(false);
       SetLoading(true)
       e.preventDefault();
       try {
-        await fetch("http://18.176.147.191:8500/add_user", {
+        await fetch("http://44.202.98.199:9000/add_user", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"

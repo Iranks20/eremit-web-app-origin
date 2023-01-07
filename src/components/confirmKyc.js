@@ -43,7 +43,7 @@ const handleSubmit = e => {
         'Authorization': token
       }
     }
-    axios.post("http://18.176.147.191:8500/add_kyc", data, requiredOp)
+    axios.post("http://44.202.98.199:9000/add_kyc", data, requiredOp)
     .then((response) => {
       setIsLoading(false)
       console.log(response)

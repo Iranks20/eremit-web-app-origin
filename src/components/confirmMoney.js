@@ -40,7 +40,7 @@ const ConfirmMoney = () =>  {
         },
         body: JSON.stringify(bodyData)
     }
-    fetch("http://18.176.147.191:8500/send_single_payment", requestedOptions)
+    fetch("http://44.202.98.199:9000/send_single_payment", requestedOptions)
     .then(result => result.json())
     .then((response) => {
         console.log(response);
@@ -83,7 +83,7 @@ const ConfirmMoney = () =>  {
         body: JSON.stringify(bodData)
       }
   
-      fetch("http://18.176.147.191:8500/saving_contacts", requiredOptions4)
+      fetch("http://44.202.98.199:9000/saving_contacts", requiredOptions4)
       .then(results => results.json())
       .then((response) => {
         console.log(response)

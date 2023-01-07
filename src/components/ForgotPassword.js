@@ -17,7 +17,7 @@ let handleSubmit = async (e) => {
   e.preventDefault();
   
   try {
-    await fetch("hhttp://18.176.147.191:8500/forgot_password", {
+    await fetch("hhttp://44.202.98.199:9000/forgot_password", {
       method: "POST",
       body: JSON.stringify({
         email: email,

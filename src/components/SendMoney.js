@@ -44,7 +44,7 @@ const SendMoney = () =>  {
       },
       body: JSON.stringify(userId)
     }
-    fetch("http://18.176.147.191:8500/user_wallets", requiredOptions)
+    fetch("http://44.202.98.199:9000/user_wallets", requiredOptions)
     .then((response) => response.json())
     .then(res => {
       console.log(res)
@@ -63,7 +63,7 @@ const SendMoney = () =>  {
       },
       body: JSON.stringify(bodyData)
     }
-    fetch("http://18.176.147.191:8500/saved_contacts", requiredDataOptions1)
+    fetch("http://44.202.98.199:9000/saved_contacts", requiredDataOptions1)
     .then(results => results.json())
     .then((response) => {
       console.log(response)
@@ -78,7 +78,7 @@ const SendMoney = () =>  {
         "Content-Type": "application/json"
       },
     }
-    fetch("http://18.176.147.191:8500/all_currencies", requiredOpt)
+    fetch("http://44.202.98.199:9000/all_currencies", requiredOpt)
     .then((response) => response.json())
     .then(currencyDetails => {
       console.log(currencyDetails)
@@ -118,7 +118,7 @@ const SendMoney = () =>  {
       body: JSON.stringify(bodData)
     }
 
-    fetch("http://18.176.147.191:8500/verify_single_payment", requiredOptions)
+    fetch("http://44.202.98.199:9000/verify_single_payment", requiredOptions)
     .then(results => results.json())
     .then((response) => {
       console.log(response)
@@ -165,7 +165,7 @@ const SendMoney = () =>  {
       body: JSON.stringify(bodData)
     }
 
-    fetch("http://18.176.147.191:8500/verify_currency", requiredOptions)
+    fetch("http://44.202.98.199:9000/verify_currency", requiredOptions)
     .then(results => results.json())
     .then((response) => {
       console.log(response)
@@ -220,7 +220,7 @@ const SendMoney = () =>  {
       body: JSON.stringify(bodData)
     }
 
-    fetch("http://18.176.147.191:8500/delete_contact", requiredOptions)
+    fetch("http://44.202.98.199:9000/delete_contact", requiredOptions)
     .then(results => results.json())
     .then((response) => {
       console.log(response)
@@ -259,7 +259,7 @@ const SendMoney = () =>  {
       },
       body: JSON.stringify(bodData)
     }
-    fetch("http://18.176.147.191:8500/userByUsername", requiredOptions)
+    fetch("http://44.202.98.199:9000/userByUsername", requiredOptions)
     .then(results => results.json())
     .then((response) => {
       console.log(response)
