@@ -71,7 +71,7 @@ class Home extends Component {
             <div class="container my-auto text-center">
                 
               <h2 class="text-16 text-white">Send & Receive Money</h2>
-              <p class="text-5 text-white mb-4">Quickly and easily send, receive and request money online with clic.<br class="d-none d-lg-block" />
+              <p class="text-5 text-white mb-4">Quickly and easily send, receive and request money very fast with clic.<br class="d-none d-lg-block" />
                 Over 180 countries and 120 currencies supported.</p>
               <a href="/eremit/#/register" class="btn btn-primary m-2">Open a Free Account</a> 
              
